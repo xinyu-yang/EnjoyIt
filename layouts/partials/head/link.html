@@ -29,6 +29,11 @@
     <link rel="feed" href="{{ .RelPermalink }}" type="application/rss+xml" title="{{ $.Site.Title }}">
 {{- end -}}
 
+<!-- busuanzi -->
+{{- if .Site.Params.footer.busuanzi.enable -}}
+  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{{- end -}}
+
 {{- /* normalize.css */ -}}
 {{- $source := $cdn.normalizeCSS | default "lib/normalize/normalize.min.css" -}}
 {{- $style := dict "Source" $source "Fingerprint" $fingerprint -}}

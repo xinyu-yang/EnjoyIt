@@ -54,6 +54,15 @@
                 {{- end -}}
                 <i class="fas fa-pencil-alt fa-fw"></i>&nbsp;{{ T "wordCount" .WordCount }}&nbsp;
                 <i class="far fa-clock fa-fw"></i>&nbsp;{{ T "readingTime" .ReadingTime }}&nbsp;
+
+                {{- /* busuanzi */ -}}
+                {{ if and .Site.Params.footer.busuanzi.enable .Site.Params.footer.busuanzi.pagePV -}}
+                  {{ $valueSpan := printf `<span id="busuanzi_value_page_pv"><img src="%s" alt="spinner.svg"/></span>` ("img/spinner.svg" | relURL) -}}
+                  <i class="fas fa-globe fa-fw"></i>&nbsp;
+                  <span id="busuanzi_container_page_pv" class="more-meta"> {{ printf (T "pagePV") $valueSpan | safeHTML }} </span>&nbsp;
+
+                {{- end }}
+
                 {{- $comment := .Scratch.Get "comment" | default dict -}}
                 {{- if $comment.enable | and $comment.valine.enable | and $comment.valine.visitor -}}
                     <span id="{{ .RelPermalink }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">

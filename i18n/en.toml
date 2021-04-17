@@ -47,6 +47,16 @@ other = "Switch Theme"
 # === partials/footer.html ===
 [poweredBySome]
 other = "Powered by {{ .Hugo }} | Theme - {{ .Theme }}"
+
+[siteUV]
+other = "Site UV: %s"
+
+[sitePV]
+other = "Site PV: %s"
+
+[pagePV]
+other = "%s times read"
+
 # === partials/footer.html ===
 
 # === partials/comment.html ===

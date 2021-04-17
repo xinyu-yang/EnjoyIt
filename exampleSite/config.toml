@@ -63,14 +63,14 @@ ignoreErrors = ["error-remote-getjson"]
         url = "/categories/"
         title = ""
         weight = 3
-      [[languages.en.menu.main]]
-        identifier = "documentation"
-        pre = ""
-        post = ""
-        name = "Docs"
-        url = "/categories/documentation/"
-        title = ""
-        weight = 4
+      #[[languages.en.menu.main]]
+        #identifier = "documentation"
+        #pre = ""
+        #post = ""
+        #name = "Docs"
+        #url = "/categories/documentation/"
+        #title = ""
+        #weight = 4
       [[languages.en.menu.main]]
         identifier = "about"
         pre = ""
@@ -674,6 +674,13 @@ ignoreErrors = ["error-remote-getjson"]
     # license info (HTML format is supported)
     license= '<a rel="license external nofollow noopener noreferrer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
+
+  [params.footer.busuanzi]         # count web traffic by busuanzi                             # 是否使用不蒜子统计站点访问量
+    enable = true
+    siteUV = true
+    sitePV = true
+    pagePV = true
+
   # Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
@@ -981,7 +988,7 @@ ignoreErrors = ["error-remote-getjson"]
 # Permalinks config (https://gohugo.io/content-management/urls/#permalinks)
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
+  posts = "posts/:filename"
 
 # Privacy config (https://gohugo.io/about/hugo-and-gdpr/)
 [privacy]
