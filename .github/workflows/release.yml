@@ -12,7 +12,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v2
         with:
-          path: "CodeIT"
+          path: "EnjoyIt"
           fetch-depth: 0
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:

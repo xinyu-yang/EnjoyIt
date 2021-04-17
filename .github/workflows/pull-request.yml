@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-20.04
     defaults:
       run:
-        working-directory: CodeIT
+        working-directory: EnjoyIt
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
@@ -27,5 +27,5 @@ jobs:
       - name: Check HTML
         uses: chabad360/htmlproofer@master
         with:
-          directory: "CodeIT/exampleSite/public"
+          directory: "EnjoyIt/exampleSite/public"
           arguments: --check-html --allow-hash-href --empty-alt-ignore --disable-external
