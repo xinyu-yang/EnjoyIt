@@ -129,7 +129,6 @@ Example `instagram` input:
 
 The rendered output looks like this:
 
-{{< instagram BWNjjyYFxVx hidecaption >}}
 
 ## 5 param
 
@@ -149,19 +148,6 @@ The rendered output looks like this:
 
 [Documentation of `ref` and `relref`](https://gohugo.io/content-management/shortcodes#ref-and-relref)
 
-## 7 tweet
-
-[Documentation of `tweet`](https://gohugo.io/content-management/shortcodes#tweet)
-
-Example `tweet` input:
-
-```markdown
-{{</* tweet 877500564405444608 */>}}
-```
-
-The rendered output looks like this:
-
-{{< tweet 877500564405444608 >}}
 
 ## 8 vimeo
 

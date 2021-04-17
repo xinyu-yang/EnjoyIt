@@ -125,7 +125,6 @@ Hugo 附带了一组预定义的 shortcodes, 它们实现了一些非常常见�
 
 呈现的输出效果如下:
 
-{{< instagram BWNjjyYFxVx hidecaption >}}
 
 ## 5 param
 
@@ -145,19 +144,6 @@ Hugo 附带了一组预定义的 shortcodes, 它们实现了一些非常常见�
 
 [`ref` 和 `relref` 的文档](https://gohugo.io/content-management/shortcodes#ref-and-relref)
 
-## 7 tweet
-
-[`tweet` 的文档](https://gohugo.io/content-management/shortcodes#tweet)
-
-一个 `tweet` 示例:
-
-```markdown
-{{</* tweet 877500564405444608 */>}}
-```
-
-呈现的输出效果如下:
-
-{{< tweet 877500564405444608 >}}
 
 ## 8 vimeo
 

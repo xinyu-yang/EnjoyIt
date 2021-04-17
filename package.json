@@ -1,9 +1,9 @@
 {
-  "name": "codeit-src",
-  "description": "CodeIT theme source file",
+  "name": "enjoyit-src",
+  "description": "EnjoyIt theme source file",
   "version": "0.1.1",
-  "homepage": "https://codeit.suntprogramator.dev/",
-  "author": "Victor Pogor",
+  "homepage": "https://xinyu-yang.github.io/",
+  "author": "Xinyu Yang",
   "license": "MIT",
   "private": true,
   "devDependencies": {
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sunt-programator/CodeIT.git"
+    "url": "git+https://github.com/xinyu-yang/EnjoyIt.git"
   },
   "keywords": [
     "gohugo",
@@ -61,7 +61,7 @@
     "theme"
   ],
   "bugs": {
-    "url": "https://github.com/sunt-programator/CodeIT/issues"
+    "url": "https://github.com/xinyu-yang/EnjoyIt/issues"
   },
   "config": {
     "commitizen": {

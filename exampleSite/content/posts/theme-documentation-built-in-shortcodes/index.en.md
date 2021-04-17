@@ -124,7 +124,11 @@ Example `instagram` input:
 
 The rendered output looks like this:
 
-{{< instagram BWNjjyYFxVx hidecaption >}}
+```markdown
+{{</* instagram BWNjjyYFxVx hidecaption */>}}
+```
+
+Unfortunatelly, the instagram shortcode could incur build timeout due to known [bug](https://discourse.gohugo.io/t/twitter-short-code-timeout/17326).
 
 ## 5 param
 
@@ -156,7 +160,10 @@ Example `tweet` input:
 
 The rendered output looks like this:
 
-{{< tweet 877500564405444608 >}}
+```markdown
+{{</* tweet 877500564405444608 */>}}
+```
+Unfortunatelly, the tweet shortcode could incur build timeout due to known [bug](https://discourse.gohugo.io/t/twitter-short-code-timeout/17326).
 
 ## 8 vimeo
 
