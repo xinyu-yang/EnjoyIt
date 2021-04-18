@@ -92,9 +92,11 @@ I hope you will CodeIT 👩‍💻!
 
 Compared to the original CodeIT theme, the EnjoyIt theme has the following modifications.
 
-TODO
+- **[Baidu Analytics](https://tongji.baidu.com/)**
+- **[busuanzi](http://ibruce.info/2015/04/04/busuanzi/)** counter.
+- ...
 
-I hope you will EnjoyIt 😂🤟🤣
+I hope you will 😂EnjoyIt🤣 🤟
 
 ## Features
 
@@ -103,6 +105,7 @@ I hope you will EnjoyIt 😂🤟🤣
 - Optimized for **performance**: 99/100 on mobile and 100/100 on the desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
 - Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
 - **[Google Analytics](https://analytics.google.com/analytics)** supported
+- **[Baidu Analytics](https://tongji.baidu.com/)** supported
 - **[Fathom Analytics](https://usefathom.com/)** supported
 - **[Plausible Analytics](https://plausible.io/)** supported
 - Search engine **verification** supported (Google, Bind, Yandex, and Baidu)

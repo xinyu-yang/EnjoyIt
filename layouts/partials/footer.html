@@ -19,15 +19,15 @@
 
 
         {{- /* busuanzi */ -}}
-        {{ if .Site.Params.footer.busuanzi.enable -}}
+        {{ if .Site.Params.busuanzi.enable -}}
             <div class="footer-line">
                 {{ $spinner := "img/spinner.svg" | relURL -}}
-                {{ if and .Site.Params.footer.busuanzi.enable .Site.Params.footer.busuanzi.sitePV -}}
+                {{ if and .Site.Params.busuanzi.enable .Site.Params.busuanzi.sitePV -}}
                 {{ $valueSpan := printf `<span id="busuanzi_value_site_pv"><img src="%s" alt="spinner.svg"/></span>` $spinner -}}
                 <span id="busuanzi_container_site_pv"> {{ printf (T "sitePV") $valueSpan | safeHTML }} </span>
-                {{ if .Site.Params.footer.busuanzi.siteUV }}<span class="division">|</span>{{ end }}
+                {{ if .Site.Params.busuanzi.siteUV }}<span class="division">|</span>{{ end }}
                 {{- end }}
-                {{ if and .Site.Params.footer.busuanzi.enable .Site.Params.footer.busuanzi.siteUV -}}
+                {{ if and .Site.Params.busuanzi.enable .Site.Params.busuanzi.siteUV -}}
                 {{ $valueSpan := printf `<span id="busuanzi_value_site_uv"><img src="%s" alt="spinner.svg"/></span>` $spinner -}}
                 <span id="busuanzi_container_site_uv"> {{ printf (T "siteUV") $valueSpan | safeHTML }} </span>
                 {{- end }}
