@@ -12,7 +12,7 @@
             {{- if ne .Site.Params.footer.hugo false -}}
                 <div class="footer-line">
                     {{- $hugo := printf `<a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo %v">Hugo</a>` hugo.Version -}}
-                    {{- $theme := .Scratch.Get "version" | printf `<a href="https://github.com/xinyu-yang/EnjoyIt" target="_blank" rel="noopener noreferrer" title="EnjoyIt %v"><i class="fas fa-laptop-code fa-fw"></i> EnjoyIt</a>` -}}
+                    {{- $theme := .Scratch.Get "version" | printf `<a href="https://github.com/xinyu-yang/EnjoyIt" target="_blank" rel="noopener noreferrer" title="EnjoyIt %v"><i class="fas fa-heart fa-fw"></i> EnjoyIt</a>` -}}
                     {{- dict "Hugo" $hugo "Theme" $theme | T "poweredBySome" | safeHTML }}
                 </div>
             {{- end -}}
@@ -25,7 +25,7 @@
                 {{ if and .Site.Params.busuanzi.enable .Site.Params.busuanzi.sitePV -}}
                 {{ $valueSpan := printf `<span id="busuanzi_value_site_pv"><img src="%s" alt="spinner.svg"/></span>` $spinner -}}
                 <span id="busuanzi_container_site_pv"> {{ printf (T "sitePV") $valueSpan | safeHTML }} </span>
-                {{ if .Site.Params.busuanzi.siteUV }}<span class="division">|</span>{{ end }}
+                {{ if .Site.Params.busuanzi.siteUV }}<span class="division">•</span>{{ end }}
                 {{- end }}
                 {{ if and .Site.Params.busuanzi.enable .Site.Params.busuanzi.siteUV -}}
                 {{ $valueSpan := printf `<span id="busuanzi_value_site_uv"><img src="%s" alt="spinner.svg"/></span>` $spinner -}}
