@@ -28,7 +28,7 @@
                 {{- /* Hugo and EnjoyIt */ -}}
                 {{- if ne .Site.Params.footer.hugo false -}}
                     {{- $hugo := printf `<a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo %v">Hugo</a>` hugo.Version -}}
-                    {{- $theme := .Scratch.Get "version" | printf `<a href="https://github.com/xinyu-yang/EnjoyIt" target="_blank" rel="noopener noreferrer" title="EnjoyIt %v"><i class="fas fa-heart fa-fw"></i> EnjoyIt</a>` -}}
+                    {{- $theme := .Scratch.Get "version" | printf `<a href="https://github.com/xinyu-yang/EnjoyIt" target="_blank" rel="noopener noreferrer" title="EnjoyIt %v"><i class="fas fa-heart fa-fw"></i>EnjoyIt</a>` -}}
                     {{- dict "Hugo" $hugo "Theme" $theme | T "poweredBySome" | safeHTML }}
                 {{- end -}}
 
