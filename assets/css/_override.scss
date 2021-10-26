@@ -2,3 +2,20 @@
 // Override Variables
 // 覆盖变量
 // ==============================
+
+// ========== Global ========== //
+// Font and Line Height
+$global-font-family: system-ui, -apple-system, BlinkMacSystemFont, PingFang SC,
+  Microsoft YaHei UI, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+  Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif !default;
+$global-font-size: 16px;
+$global-font-weight: 400;
+$global-line-height: 2rem;
+
+// Color of the background
+$global-background-color: #f5f5dc !default;
+$global-background-color-dark: #292a2d !default;
+
+// Color of the text
+$global-font-color: #161209 !default;
+$global-font-color-dark: #a9a9b3 !default;
