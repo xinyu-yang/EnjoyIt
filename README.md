@@ -94,7 +94,10 @@ Compared to the original CodeIT theme, the EnjoyIt theme has the following modif
 
 - **[Baidu Analytics](https://tongji.baidu.com/)**
 - **[busuanzi](http://ibruce.info/2015/04/04/busuanzi/)** counter.
+- Customize the footer style.
+- Change background color to beige(#F5F5DC).
 - ...
+
 
 I hope you will 😂EnjoyIt🤣 🤟
 
