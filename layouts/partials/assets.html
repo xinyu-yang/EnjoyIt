@@ -25,6 +25,7 @@
                 {{- $config = dict "lunrSegmentitURL" (resources.Get .).RelPermalink | dict "search" | merge $config -}}
             {{- end -}}
             {{- dict "Source" "lib/lunr/lunr.stemmer.support.js" "Minify" true "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+            {{- dict "Source" "lib/lunr/lunr.multi.js" "Minify" true "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
             {{- dict "Source" (T "lunrLanguageLib") "Minify" true "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
         {{- end -}}
     {{- else if eq $search.type "algolia" -}}

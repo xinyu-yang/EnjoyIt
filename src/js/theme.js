@@ -291,7 +291,7 @@ class Theme {
                     const indexData = {};
                     this._index = lunr(function () {
                       if (searchConfig.lunrLanguageCode)
-                        this.use(lunr[searchConfig.lunrLanguageCode]);
+                        this.use(lunr.multiLanguage('en', lunr[searchConfig.lunrLanguageCode]));
                       this.ref("objectID");
                       this.field("title", { boost: 50 });
                       this.field("tags", { boost: 20 });

@@ -30,8 +30,6 @@ read [Why to choose EnjoyIt](#why-choose-EnjoyIt) so that you can choose the one
 * [Multilingual and i18n](#multilingual-and-i18n)
 * [Questions, ideas, bugs, pull requests](#questions-ideas-bugs-pull-requests)
 * [Llicense](#license)
-* [Sponsor](#sponsor)
-* [Contributors](#contributors-)
 
 ## Brief history
 
@@ -96,6 +94,7 @@ Compared to the original CodeIT theme, the EnjoyIt theme has the following modif
 - **[busuanzi](http://ibruce.info/2015/04/04/busuanzi/)** counter.
 - Customize the footer style.
 - Change background color to beige(#F5F5DC).
+- Delete Facebook, Telegram, and Commento comment system.
 - ...
 
 
@@ -134,9 +133,6 @@ I hope you will 😂EnjoyIt🤣 🤟
 - **Disqus** comment system supported by [Disqus](https://disqus.com)
 - **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
 - **Valine** comment system supported by [Valine](https://valine.js.org/)
-- **Facebook comments** system supported by [Facebook](https://developers.facebook.com/docs/plugins/comments/)
-- **Telegram comments** system supported by [Telegram Comments](https://comments.app/)
-- **Commento** comment system supported by [Commento](https://commento.io/)
 - **Utterances** comment system supported by [Utterances](https://utteranc.es/)
 
 ### Extended Features
@@ -249,74 +245,3 @@ Thanks to the authors of the following resources included in the theme:
 - [Valine](https://valine.js.org/)
 - [cookieconsent](https://github.com/osano/cookieconsent)
 
-## Sponsor
-
-<!--If you enjoy the theme, please consider buying me a coffee ☕️.-->
-
-<!--- [PayPal](https://paypal.me/)-->
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://suntprogramator.dev/"><img src="https://avatars1.githubusercontent.com/u/24962085?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victor Pogor</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=victor-pogor" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Avictor-pogor" title="Bug reports">🐛</a> <a href="#projectManagement-victor-pogor" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/dillonzq"><img src="https://avatars1.githubusercontent.com/u/30786232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dillon</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=dillonzq" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Adillonzq" title="Bug reports">🐛</a> <a href="#projectManagement-dillonzq" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://giuseppepignataro.eu/"><img src="https://avatars0.githubusercontent.com/u/16869546?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Giuseppe Pignataro</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Fastbyte01" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3AFastbyte01" title="Bug reports">🐛</a> <a href="#projectManagement-Fastbyte01" title="Project Management">📆</a></td>
-    <td align="center"><a href="http://www.thatamazingprogrammer.com/"><img src="https://avatars0.githubusercontent.com/u/11393826?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher C. Johnson</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Programazing" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3AProgramazing" title="Bug reports">🐛</a> <a href="https://github.com/sunt-programator/CodeIT/commits?author=Programazing" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://astropengu.in/"><img src="https://avatars2.githubusercontent.com/u/13254278?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akio Taniguchi</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=astropenguin" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.holo.co.de/"><img src="https://avatars0.githubusercontent.com/u/6415842?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dave A-W</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=DaveA-W" title="Code">💻</a></td>
-    <td align="center"><a href="https://blog.realsangil.net/"><img src="https://avatars1.githubusercontent.com/u/15508203?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sangil Park</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=realsangil" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://youngxhui.top/"><img src="https://avatars2.githubusercontent.com/u/16971804?v=4?s=100" width="100px;" alt=""/><br /><sub><b>youngxhui</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=youngxhui" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/solarpowerinncr"><img src="https://avatars0.githubusercontent.com/u/37186560?v=4?s=100" width="100px;" alt=""/><br /><sub><b>solarpowerinncr</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=solarpowerinncr" title="Code">💻</a></td>
-    <td align="center"><a href="https://gitlab.com/maxlefou"><img src="https://avatars1.githubusercontent.com/u/6705075?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Max le Fou</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=maxlefou" title="Code">💻</a></td>
-    <td align="center"><a href="https://edte.github.io/"><img src="https://avatars1.githubusercontent.com/u/50194671?v=4?s=100" width="100px;" alt=""/><br /><sub><b>edte</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=edte" title="Code">💻</a></td>
-    <td align="center"><a href="https://frankma.netlify.app/"><img src="https://avatars3.githubusercontent.com/u/6177727?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Fedomn</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Fedomn" title="Code">💻</a></td>
-    <td align="center"><a href="https://coders.school/"><img src="https://avatars0.githubusercontent.com/u/4595135?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Łukasz Ziobroń</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=ziobron" title="Code">💻</a></td>
-    <td align="center"><a href="https://blog.yoloyi.com/"><img src="https://avatars1.githubusercontent.com/u/40978171?v=4?s=100" width="100px;" alt=""/><br /><sub><b>余农场主</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=yoloyi" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://blog.wtcx.dev/"><img src="https://avatars3.githubusercontent.com/u/1546333?v=4?s=100" width="100px;" alt=""/><br /><sub><b>W.T. Chang</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=wtchangdm" title="Code">💻</a></td>
-    <td align="center"><a href="http://blog.toneladas.com.br/"><img src="https://avatars1.githubusercontent.com/u/1603028?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vanildo Souto Mangueira</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=vanildosouto" title="Code">💻</a></td>
-    <td align="center"><a href="https://linuxo.org/"><img src="https://avatars2.githubusercontent.com/u/37209662?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tomaja</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=tomaja-linuxo" title="Code">💻</a></td>
-    <td align="center"><a href="https://thibault-lereste.fr/"><img src="https://avatars2.githubusercontent.com/u/12964583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thibault Le Reste</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=tlereste" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/thejayhaykid"><img src="https://avatars0.githubusercontent.com/u/9452325?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jake Hayes</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=thejayhaykid" title="Code">💻</a></td>
-    <td align="center"><a href="https://sarathsp.com/"><img src="https://avatars0.githubusercontent.com/u/964542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarath Sadasivan Pillai</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=sarathsp06" title="Code">💻</a></td>
-    <td align="center"><a href="https://rodomar.mx/"><img src="https://avatars2.githubusercontent.com/u/2797052?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rodolfo Martínez Vega</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=ramrodo" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/quyleanh"><img src="https://avatars1.githubusercontent.com/u/9365035?v=4?s=100" width="100px;" alt=""/><br /><sub><b>quyleanh</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=quyleanh" title="Code">💻</a></td>
-    <td align="center"><a href="http://www.onisuly.com/"><img src="https://avatars1.githubusercontent.com/u/8399827?v=4?s=100" width="100px;" alt=""/><br /><sub><b>onisuly</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=onisuly" title="Code">💻</a></td>
-    <td align="center"><a href="https://nir.galon.io/"><img src="https://avatars3.githubusercontent.com/u/3472902?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nir Galon</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=nirgn975" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/markdluethje"><img src="https://avatars2.githubusercontent.com/u/31922494?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mark-Daniel Lüthje</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=markdluethje" title="Code">💻</a></td>
-    <td align="center"><a href="https://devandreacarratta.it/"><img src="https://avatars3.githubusercontent.com/u/46504271?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrea Carratta</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=devandreacarratta" title="Code">💻</a></td>
-    <td align="center"><a href="https://dogukanerel.com/"><img src="https://avatars3.githubusercontent.com/u/19349444?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Doğukan Erel</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=derelartwork" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.codedge.de/"><img src="https://avatars3.githubusercontent.com/u/4409904?v=4?s=100" width="100px;" alt=""/><br /><sub><b>codedge</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=codedge" title="Code">💻</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://www.cmpsoares.com/"><img src="https://avatars2.githubusercontent.com/u/4914211?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Carlos Manuel Soares</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=cmpsoares91" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.scrample.xyz/"><img src="https://avatars3.githubusercontent.com/u/51033013?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anup</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=anup92k" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/SilkeHenderickx"><img src="https://avatars0.githubusercontent.com/u/28140438?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Silke Henderickx</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=SilkeHenderickx" title="Code">💻</a></td>
-    <td align="center"><a href="https://ghos.in/"><img src="https://avatars1.githubusercontent.com/u/26043355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ghosin</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Ghosin" title="Code">💻</a></td>
-    <td align="center"><a href="https://automationd.com/"><img src="https://avatars2.githubusercontent.com/u/1790594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dmitry Kireev</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=AutomationD" title="Code">💻</a></td>
-    <td align="center"><a href="https://michaeloliver.dev"><img src="https://avatars3.githubusercontent.com/u/55017335?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Michael Oliver</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=michael0liver" title="Code">💻</a></td>
-    <td align="center"><a href="https://epogrebnyak.github.io"><img src="https://avatars3.githubusercontent.com/u/9265326?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Evgeny Pogrebnyak</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Aepogrebnyak" title="Bug reports">🐛</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://sosiristseng.github.io"><img src="https://avatars2.githubusercontent.com/u/40054455?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wen Wei Tseng</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=sosiristseng" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.sheldonhull.com"><img src="https://avatars.githubusercontent.com/u/3526320?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sheldonhull</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=sheldonhull" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Asheldonhull" title="Bug reports">🐛</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!

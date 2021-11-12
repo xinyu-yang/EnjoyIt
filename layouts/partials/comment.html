@@ -57,60 +57,6 @@
             </noscript>
         {{- end -}}
 
-        {{- /* Facebook Comment System */ -}}
-        {{- $facebook := $comment.facebook | default dict -}}
-        {{- if $facebook.enable -}}
-            <div id="fb-root" class="comment"></div>
-            <div
-                class="fb-comments"
-                data-href="{{ .Permalink }}"
-                data-width="{{ $facebook.width }}"
-                data-numposts="{{ $facebook.numPosts }}"
-            ></div>
-            {{- $source := printf "https://connect.facebook.net/%v/sdk.js#xfbml=1&version=v5.0&appId=%v&autoLogAppEvents=1" ($facebook.languageCode | default (T "facebookLanguageCode")) $facebook.appId -}}
-            {{- dict "Source" $source "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-            <noscript>
-                Please enable JavaScript to view the comments powered by <a href="https://developers.facebook.com/docs/plugins/comments/"></a>Facebook</a>.
-            </noscript>
-        {{- end -}}
-
-        {{- /* Telegram Comments System */ -}}
-        {{- $telegram := $comment.telegram | default dict -}}
-        {{- if $telegram.enable -}}
-            <div id="telegram-comments" class="comment"></div>
-            {{- $attr := printf `data-comments-app-website="%v"` $telegram.siteID -}}
-            {{- $attr = printf `%v data-limit="%v"` $attr ($telegram.limit | default 5) -}}
-            {{- with $telegram.height -}}
-                {{- $attr = printf `%v data-height="%v"` $attr . -}}
-            {{- end -}}
-            {{- with $telegram.color -}}
-                {{- $attr = printf `%v data-color="%v"` $attr . -}}
-            {{- end -}}
-            {{- if $telegram.colorful -}}
-                {{- $attr = printf `%v data-colorful="1"` $attr -}}
-            {{- end -}}
-            {{- if $telegram.dislikes -}}
-                {{- $attr = printf `%v data-dislikes="1"` $attr -}}
-            {{- end -}}
-            {{- if $telegram.outlined -}}
-                {{- $attr = printf `%v data-outlined="1"` $attr -}}
-            {{- end -}}
-            {{- dict "Source" "https://comments.app/js/widget.js?2" "Defer" true "Attr" $attr | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-            <noscript>
-                Please enable JavaScript to view the comments powered by <a href="https://comments.app/">Telegram Comments</a>.
-            </noscript>
-        {{- end -}}
-
-        {{- /* Commento Comment System */ -}}
-        {{- $commento := $comment.commento | default dict -}}
-        {{- if $commento.enable -}}
-            <div id="commento"></div>
-            {{- dict "Source" "https://cdn.commento.io/js/commento.js" "Defer" true | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-            <noscript>
-                Please enable JavaScript to view the comments powered by <a href="https://commento.io/">Commento</a>.
-            </noscript>
-        {{- end -}}
-
         {{- /* Utterances Comment System */ -}}
         {{- $utterances := $comment.utterances | default dict -}}
         {{- if $utterances.enable -}}
@@ -124,6 +70,8 @@
                 Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
             </noscript>
         {{- end -}}
+
+        {{- /* TODO: Considing add giscus, which is powered by github discussions */ -}}
     </div>
 {{- end -}}
 
