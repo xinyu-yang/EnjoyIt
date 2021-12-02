@@ -7,6 +7,9 @@ lightgallery: true
 
 math:
   enable: true
+comment:
+  enable: true
+
 ---
 
 {{< style "img { height: 1.25rem; }" >}}

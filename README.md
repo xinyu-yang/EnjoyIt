@@ -26,7 +26,6 @@ read [Why to choose EnjoyIt](#why-choose-EnjoyIt) so that you can choose the one
   * [Social and Comment Systems](#social-and-comment-systems)
   * [Extended Features](#extended-features)
 * [Add the theme to your blog](#add-the-theme-to-your-blog)
-<!--* [Build documentation instructions](#build-documentation-instructions)-->
 * [Multilingual and i18n](#multilingual-and-i18n)
 * [Questions, ideas, bugs, pull requests](#questions-ideas-bugs-pull-requests)
 * [Llicense](#license)
@@ -41,52 +40,14 @@ We tried to contact the theme [owner](https://github.com/dillonzq), but without 
 So we decided to create and maintain the theme with a new name, keeping the original style, but continuously improving it. Feel free to contribute to this theme 😊.
 
 ### Brief history of EnjoyIt
-I want to customize my own blog theme, without redundant features, also with features I like but others may think redundant.
+I want to customize a high-quality blog theme with the most useful features but without redundant features.
 Enjoy blogging, enjoy it.
 
-## [Demo Site](https://xinyu-yang.github.io/)
+## [Demo Site](https://xinyu-yang.github.io/blog/)
 
-To see this theme in action, here is a live [demo site](https://xinyu-yang.github.io/) that is rendered with the **EnjoyIt** theme.
+To see this theme in action, here is a live [demo site](https://xinyu-yang.github.io/blog/) that is rendered with the **EnjoyIt** theme.
 
 ## Why choose EnjoyIt
-
-======================
-
-Compared to the original LeaveIt theme and the KeepIt theme, the CodeIT theme has the following modifications.
-
-- Custom **Header**
-- Custom **CSS Style**
-- A new **home page**, compatible with the latest version of Hugo
-- A lot of **style detail adjustments,** including color, font size, margins, code preview style
-- More readable **dark mode**
-- Some beautiful **CSS animations**
-- Easy-to-use and self-expanding **table of contents**
-- More **social links**, **share sites**, and **comment system**
-- **Search** supported by [Lunr.js](https://lunrjs.com/) or [Algolia](https://www.algolia.com/)
-- **Copy code** to the clipboard with one click
-- Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
-- Extended Markdown syntax for **ruby annotation**
-- Extended Markdown syntax for **fractions**
-- **Mathematical formula** supported by [KaTeX](https://katex.org/)
-- **Diagram syntax** shortcode supported by [mermaids](https://github.com/knsv/mermaid)
-- **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
-- **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
-- Embedded **music player** supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
-- **Bilibili** player supported
-- Kinds of **admonitions** shortcode supported
-- Custom style shortcodes supported
-- **CDN** for all third-party libraries supported
-- ...
-
-In short,
-if you prefer the design language and freedom of the CodeIT theme,
-if you want to use the extended Font Awesome icons conveniently,
-if you want to embed mathematical formulas, flowcharts, music, or Bilibili videos in your posts,
-the CodeIT theme may be more suitable for you.
-
-I hope you will CodeIT 👩‍💻!
-
-===========================
 
 Compared to the original CodeIT theme, the EnjoyIt theme has the following modifications.
 
@@ -95,6 +56,7 @@ Compared to the original CodeIT theme, the EnjoyIt theme has the following modif
 - Customize the footer style.
 - Change background color to beige(#F5F5DC).
 - Delete Facebook, Telegram, and Commento comment system.
+- Add **[Twikoo](https://twikoo.js.org)** comment support.
 - ...
 
 
@@ -134,6 +96,7 @@ I hope you will 😂EnjoyIt🤣 🤟
 - **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
 - **Valine** comment system supported by [Valine](https://valine.js.org/)
 - **Utterances** comment system supported by [Utterances](https://utteranc.es/)
+- **Twikoo** comment system supported by [Twikoo](https://twikoo.js.org/)
 
 ### Extended Features
 
@@ -180,11 +143,6 @@ git submodule add https://github.com/xinyu-yang/EnjoyIt.git themes/EnjoyIt
 ```bash
 echo 'theme = "EnjoyIt"' >> config.toml
 ```
-
-<!--## [Build documentation instructions](https://codeit.suntprogramator.dev/categories/documentation/)-->
-
-<!--You can build the theme documentation locally by using a [devcontainer](https://code.visualstudio.com/docs/remote/containers) or by manually install the [`Hugo`](https://gohugo.io/getting-started/installing).-->
-<!--The main advantage of the `devcontainer` is that you will have a preconfigured container with all tools required for developing and building the theme documentation.-->
 
 ```bash
 hugo server --source=exampleSite
@@ -243,5 +201,6 @@ Thanks to the authors of the following resources included in the theme:
 - [MetingJS](https://github.com/metowolf/MetingJS)
 - [Gitalk](https://github.com/gitalk/gitalk)
 - [Valine](https://valine.js.org/)
+- [Twikoo](https://twikoo.js.org)
 - [cookieconsent](https://github.com/osano/cookieconsent)
 

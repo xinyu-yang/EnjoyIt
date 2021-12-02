@@ -605,7 +605,7 @@ ignoreErrors = ["error-remote-getjson"]
         clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""
@@ -624,26 +624,14 @@ ignoreErrors = ["error-remote-getjson"]
         # you can store your own data files in the same path under your project:
         # "assets/data/emoji/"
         emoji = ""
-      # Facebook comment config (https://developers.facebook.com/docs/plugins/comments)
-      [params.page.comment.facebook]
-        enable = false
-        width = "100%"
-        numPosts = 10
-        appId = ""
-        languageCode = ""
-      # Telegram comments config (https://comments.app/)
-      [params.page.comment.telegram]
-        enable = false
-        siteID = ""
-        limit = 5
-        height = ""
-        color = ""
-        colorful = true
-        dislikes = false
-        outlined = false
-      # Commento comment config (https://commento.io/)
-      [params.page.comment.commento]
-        enable = false
+      # Valine comment config (https://github.com/xCss/Valine)
+      [params.page.comment.twikoo]
+        enable = true
+        envId = "https://xxx.vercel.app/"
+        el = "#tcomment"
+        #region = "ap-shanghai"
+        #path = "window.location.pathname"
+        #lang = "zh-CN"
       # Utterances comment config (https://utteranc.es/)
       [params.page.comment.utterances]
         enable = false
