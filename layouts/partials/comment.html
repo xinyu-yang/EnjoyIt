@@ -57,6 +57,33 @@
             </noscript>
         {{- end -}}
 
+        {{- /* Twikoo Comment System */ -}}
+        {{- $twikoo := $comment.twikoo | default dict -}}
+        {{- if $twikoo.enable -}}
+            <div id="twikoo" class="comment"></div>
+            {{- $options := dict "targetPath" "lib/valine/valine.min.css" -}}
+            {{- dict "Source" "lib/valine/valine.scss" "ToCSS" $options | dict "Scratch" .Scratch "Data" | partial "scratch/style.html" -}}
+            {{- $source := $cdn.twikooJS | default "lib/twikoo/" -}}
+            {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+            {{- $commentConfig = dict "el" "#valine" "appId" $valine.appId "appKey" $valine.appKey "lang" ($valine.lang | default (T "valineLang")) "visitor" $valine.visitor "recordIP" $valine.recordIP "placeholder" ($valine.placeholder | default (T "valinePlaceholder")) "highlight" (ne $valine.highlight false) "enableQQ" $valine.enableQQ "requiredFields" $valine.requiredFields | dict "valine" | merge $commentConfig -}}
+            {{- with $valine.avatar -}}
+                {{- $commentConfig = dict "avatar" . | dict "valine" | merge $commentConfig -}}
+            {{- end -}}
+            {{- with $valine.meta -}}
+                {{- $commentConfig = dict "meta" . | dict "valine" | merge $commentConfig -}}
+            {{- end -}}
+            {{- with $valine.pageSize -}}
+                {{- $commentConfig = dict "pageSize" . | dict "valine" | merge $commentConfig -}}
+            {{- end -}}
+            {{- with $valine.serverURLs -}}
+                {{- $commentConfig = dict "serverURLs" . | dict "valine" | merge $commentConfig -}}
+            {{- end -}}
+            {{- $commentConfig = $valine.emoji | default "google.yml" | printf "data/emoji/%v" | resources.Get | transform.Unmarshal | dict "valine" | merge $commentConfig -}}
+            <noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
+            </noscript>
+        {{- end -}}
+
         {{- /* Utterances Comment System */ -}}
         {{- $utterances := $comment.utterances | default dict -}}
         {{- if $utterances.enable -}}

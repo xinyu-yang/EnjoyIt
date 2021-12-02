@@ -617,7 +617,7 @@ ignoreErrors = ["error-remote-getjson"]
         recordIP = true
         highlight = true
         enableQQ = false
-        serverURLs = "https://leancloud.hugoEnjoyIt.com"
+        #serverURLs = "https://leancloud.hugoEnjoyIt.com"
         # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/EnjoyIt/assets/data/emoji/" directory
