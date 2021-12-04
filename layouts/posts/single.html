@@ -69,6 +69,10 @@
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;{{ T "views" }}
                     </span>&nbsp;
                 {{- end -}}
+                {{- if $comment.enable | and $comment.twikoo.enable | and $comment.twikoo.counter -}}
+                    <span><i class="far fa-eye fa-fw"></i>&nbsp;<span id="twikoo_visiotors">-1</span>&nbsp;{{ T "views" }}
+                    </span>&nbsp;
+                {{- end -}}
             </div>
         </div>
 

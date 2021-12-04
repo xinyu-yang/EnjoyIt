@@ -624,14 +624,15 @@ ignoreErrors = ["error-remote-getjson"]
         # you can store your own data files in the same path under your project:
         # "assets/data/emoji/"
         emoji = ""
-      # Valine comment config (https://github.com/xCss/Valine)
+      # Twikoo comment config (https://twikoo.js.org/)
       [params.page.comment.twikoo]
         enable = true
         envId = "https://xxx.vercel.app/"
-        el = "#tcomment"
         #region = "ap-shanghai"
         #path = "window.location.pathname"
         #lang = "zh-CN"
+        # Single page counter
+        #counter = true
       # Utterances comment config (https://utteranc.es/)
       [params.page.comment.utterances]
         enable = false
