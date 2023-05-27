@@ -774,6 +774,7 @@ ignoreErrors = ["error-remote-getjson"]
 [author]
   name = "EnjoyIt"
   email = ""
+  # This link should be an absolute URL
   link = ""
 
 # Sitemap config
