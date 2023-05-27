@@ -30,8 +30,11 @@
 {{- end -}}
 
 <!-- busuanzi -->
-{{- if .Site.Params.busuanzi.enable -}}
-  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+{{- $analytics := .Scratch.Get "analytics" | default dict -}}
+{{- if $analytics.enable -}}
+	{{- if .Site.Params.busuanzi.enable -}}
+	  <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+	{{- end -}}
 {{- end -}}
 
 {{- /* normalize.css */ -}}
